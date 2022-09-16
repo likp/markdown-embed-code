@@ -1,5 +1,5 @@
 name: Markdown Embed Code From File
-author: "@tokusumi"
+author: "@cgalliva"
 description: Action to synchronize "any" code in markdown with an external file. No more managing code as plain text.
 inputs:
   token:
