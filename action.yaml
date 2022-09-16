@@ -1,4 +1,4 @@
-name: Markdown Embed Code From File
+name: Markdown Embed Code From File Update
 author: "@cgalliva"
 description: Action to synchronize "any" code in markdown with an external file. No more managing code as plain text.
 inputs:
