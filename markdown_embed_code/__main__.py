@@ -35,7 +35,8 @@ class PartialGitHubEvent(BaseModel):
 
 
 settings = Settings()
-subprocess.run(["git", "config", "--local", "user.name", "github-actions"], check=True)
+# subprocess.run(["git", "config", "--local", "user.name", "github-actions"], check=True)
+subprocess.run(["git", "config", "--global", "user.name", "github-actions"], check=True)
 subprocess.run(
     ["git", "config", "--local", "user.email", "github-actions@github.com"], check=True
 )
