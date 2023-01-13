@@ -43,6 +43,8 @@ subprocess.run(
 )
 
 g = Github(base_url=f"{settings.input_server}/api/v3", login_or_token=settings.input_token.get_secret_value())
+
+print(settings.github_repository)
 repo = g.get_repo(settings.github_repository)
 if not settings.github_event_path.is_file():
     sys.exit(1)
